@@ -1,0 +1,183 @@
+/* color pallet sourced from colorhunt.co
+https://colorhunt.co/palette/f7f7f7eeeeee393e46929aab */
+:root {
+  --background: #F7F7F7;
+  --color2: #EEEEEE;
+  --color3: #393E46;
+  --color4: #929AAB;
+}
+
+* {
+  width: 100%;
+  font-family: 'Pilsner-Light', 'Mr Eaves San OT Book', 'Times New Roman', Times, serif
+  background-color: var(--background);
+  color: var(--color3)
+}
+
+a:hover {
+  color: var(--color3);
+ }
+
+html {
+  font-size: 62.5%;
+  
+}
+
+body {
+  font-family: 'Pilsner-Light', 'Mr Eaves San OT Book';
+  font-size: 1.75rem;
+  line-height: 1.5;
+  color: var(--color3);
+  background-color: var(--background);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  max-width: 200px;
+  max-height: 200px;
+  align-self: center;
+  margin-bottom: 15px;
+}
+
+header {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  border-style: double;
+}
+
+.nav li {
+  border-style: double;
+ }
+
+a:hover {
+  color: #ae3cdb;
+}
+
+h1 {
+  align-self: center;
+  vertical-align: middle;
+  margin-top: 50px;
+  color: var(--color3)
+}
+  
+.container {
+   width: 95%; 
+   margin: 20px; 
+   padding: 20px; 
+   background-color: var(--color2); 
+   border: 1px solid var(--color3); 
+ }
+
+ .contact {
+  border-style: double;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+ }
+
+ .contact ul {
+  display: flex;
+  flex-direction: row;
+ }
+
+ .contact ul li {
+  border-style: double;
+  margin-top: 15px;
+  padding: 10px;
+ }
+
+
+ div h3 {
+  text-align: center;
+ }
+
+ /* main project to display larger than all other projects */
+
+ #mainproject {
+  border-style: double;
+  width: 96.5%;
+  margin: 0 auto; 
+  margin-top: 10px;
+  padding: 20px; 
+  background-color: var(--color2); 
+ }
+
+#mainproject h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+ .container .placeholder {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color2);
+ }
+
+ .container .placeholder .project {
+  border-style: double;
+  text-align: center;
+  margin: 20px;
+ }
+
+ .resources {
+  border-style: double;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+ }
+
+ .resources ul {
+  display: flex;
+  flex-direction: row;
+ }
+
+ .resources ul li {
+  border-style: double;
+  margin-top: 15px;
+  padding: 10px;
+ }
+
+footer {
+  text-align: center;
+}
+
+/* media query to change rows to columns on mobile phone screens */
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    flex-flow: wrap;
+  }
+
+  .contact > ul {
+    flex-direction: column;
+    flex-flow: wrap;
+  }
+
+  .resources > ul {
+    flex-direction: column;
+    flex-flow: wrap;
+  } 
+
+  .placeholder .project {
+    margin: 20px 0;
+  }
+
+  .placeholder {
+    flex-direction: column;
+    flex-flow: wrap;
+  }
+}
