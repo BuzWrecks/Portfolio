@@ -1,61 +1,65 @@
-# Portfolio
-A web application to display all of my completed web applications. 
+# Web Development Portfolio
+## By and for Briony Sherrell
 
-Resources
-https://colorhunt.co/palette/f7f7f7eeeeee393e46929aab
---background: #F7F7F7;
-    --color2: #EEEEEE;
-    --color3: #393E46;
-    --color4: #929AAB;
+https://buzwrecks.github.io/Portfolio
 
-    #search-engine-optimization
+## Description
 
-    ## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
-### General Info
-***
-Write down general information about your project. It is a good idea to always put a project status in the readme file. This is where you can add it. 
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+This Web Development Portfolio is a repository for all projects I have completed. This web application will allow potential employers to learn about me, view my projects, inspect my code, and contact me. 
+
+## Table of Contents
+
+- [Technologies](#technologies)
+- [Usage](#usage)
+- [Installation](#installation)
+- [License](#license)
+- [Credits](#credits)
+
 ## Technologies
-***
-A list of technologies used within the project:
-* [Technology name](https://example.com): Version 12.3 
-* [Technology name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
+
+- HTML
+- CSS
+
+## Usage
+
+*Live links to all deployed projects nested within an image identifying the project:*
+
+![Link to my first project is nested in this image](/assets/images/projectlink.png)
+
+*Live links for my contacts:*
+
+![Email, GitHub and Instagram](/assets/images/contacts.png)
+
+*Live links in the navigation bar to scroll the UI to the selected section:*
+
+![Navigation bar links](/assets/images/navbar.png)
+
 ## Installation
-***
-A little intro about the installation. 
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
-## Collaboration
-***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> Should it encompass several lines?
-> This is how you do it.
-## FAQs
-***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer to the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question, we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer to the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+
+Not applicable.
+
+## License
+
+None applicable
+
+## Credits
+
+Color Pallet from:
+
+https://colorhunt.co
+
+Specific palette used:
+
+https://colorhunt.co/palette/f7f7f7eeeeee393e46929aab
+
+READ.ME guide:
+
+https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+
+Dillinger.io: live markdown editor
+
+https://dillinger.io/
+
+W3Schools CSS Tutorials:
+
+https://www.w3schools.com/css/default.asp
